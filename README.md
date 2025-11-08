@@ -10,7 +10,7 @@ The primary goal is to address performance issues with TFORM expansion compared 
 
 ```mathematica
 ParallelMap[Expand, listOfEquations, Method -> "FinestGrained"]
-
+```
 The execution time of this program must be less than 334.939477 seconds, as this is the execution time of the above-mentioned code run in Mathematica for the same equations contained in the standardEquations_*.frm files.
 
 ## Repository Structure
@@ -32,9 +32,9 @@ wkb9/ – Contains all input equations to expand, named standardEquations_*.frm.
 
 ## Usage
 To run the parallel expansion, execute the following command in a Linux terminal:
-
+```bash
 bash parallel_tform_running.sh 19 ./ wkb9/
-
+```
 where:
 19 – Number of standardEquations_*.frm files.
 ./ – Current working directory.
