@@ -1,0 +1,1 @@
+mathematica_list/listOfEquations.txt filter=lfs diff=lfs merge=lfs -text
