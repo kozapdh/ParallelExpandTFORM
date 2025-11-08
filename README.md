@@ -1,4 +1,4 @@
-# Parallel Equation Expansion in TFORM
+# Parallel Equations Expansion in TFORM
 
 **Author:** Maciej Kozyra  
 **Email:** xkozyra@gmail.com  
